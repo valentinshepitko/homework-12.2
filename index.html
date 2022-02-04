@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+
+<main class="main">
+    <div class="container">
+        <section class="create-account">
+
+            <form action="#" class="form">
+                <div class="form__title"><h1>Profile</h1></div>
+
+                <div class="image">
+                    <div class="image__pic"><img src="src/image/photo.svg" alt=""></div>
+                    <div class="image_file"><label>
+                        <input type="file">
+                    </label>
+                        <div class="remove-file"><label><img src="src/image/trash.svg" alt=""> <input type="reset" value=""></label></div>
+                    <div class="image__desc"><span>Up to 1 MB (300x300 px)</span></div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="form__name-holder">
+
+                <div class="form__first-name">
+                    <div class="form__field-text"><span>First Name</span></div>
+                    <div>
+                        <label>
+                            <input type="text" class="form__name-field">
+                        </label>
+                    </div>
+                </div>
+
+                    <div class="form__last-name">
+                        <div class="form__field-text"><span>Last Name</span></div>
+                        <div>
+                            <label>
+                                <input type="text" class="form__name-field">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+<!--email-->
+
+                <div class="form__email">
+                    <div class="form__field-text"><span>E-mail</span></div>
+                    <label>
+                        <input type="email" class="form__email-field">
+                    </label>
+                    <div class="form__email-subtitle"><span>We'll never share your email with anyone else.</span></div>
+                </div>
+
+
+
+
+<!--country select-->
+
+                <div class="form__country-holder">
+
+                    <div class="form__field-text"><span>Country</span>
+                        <div class="form__select"><label for="select"></label><select name="select" id="select" class="form__country-input">
+                            <option value="0">Select</option>
+                            <option value="1">USA</option>
+                            <option value="2">UK</option>
+                            <option value="3">Italy</option>
+                            <option value="4">Germany</option>
+                            <option value="5">Ukraine</option>
+                        </select>
+                        </div>
+                    </div>
+
+
+                    <div class="form__field-text"><span>City</span>
+                        <div>
+                            <label>
+                                <input type="text" class="form__name-field">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+<!--button-->
+
+                <div class="button-holder"><button type="submit" class="btn">Sign Up</button></div>
+
+
+
+            </form>
+        </section>
+    </div>
+</main>
+
+</body>
+</html>
